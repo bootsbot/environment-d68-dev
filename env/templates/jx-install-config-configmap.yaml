@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQXivmA3bkPeNu1KdIqbx3qTANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyQ3YzU5ZmVkNS0zZmNkLTQ1MmEtOGQ3OC01OWFhOTYyNzc5Nzcw
+    HhcNMTkxMDA0MDk1NjAwWhcNMjQxMDAyMTA1NjAwWjAvMS0wKwYDVQQDEyQ3YzU5
+    ZmVkNS0zZmNkLTQ1MmEtOGQ3OC01OWFhOTYyNzc5NzcwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQCu9/HK8WLxv8TwjsgeOo1FXbFEp2YQOvwnIq5EFcbo
+    DJc/pXVIcG6Xo//5R46N4B5XdsQSPi8Ty/haBbDwZjJDVxlo3b0mqd5kwudxnSyO
+    DpWa6B0PrCXIJWxt/Sdh1U4dX0s6EFxz1u1WleJYXxH9k18VprohPG2d5GbxZLBd
+    puqJNDGwsQbXCrch6pZWzFM3r5lz7q6JPYJekNVdQFilLFZVb3Y8zU6H+Ck0mbdr
+    AE2qZlDmNvrndBKz8om5c5trDIxEUwMRXr1FIJZXwXryfdx/udMQRglWVWwFk+v4
+    5xYObwYG/ff+4l+SlWsBgfFzvQK3fD8/NvyCZvVrws5nAgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCT
+    KyfgZIvweS2g+U2/WDr629JuT+elyRt5+aViIwNJu7OvQFemR3OG0zDi7IWum4Lq
+    UDMlfl1rQ2aDVluT3qJI2auCMMB6ZTqQGfjFumLOKkgY6RZDcVhBillbt7AUb144
+    Zp6gNsbYWjawKu6KvGz4AlidkKHnU21YW/1lMyUHMZ1Zry8b1HGwawkkhk06GN4b
+    k6TgWDNBpUn6uD2iQrKhtV3IktuhxZNrzyPqeS+h6ZljB7NMqKxA+n4dYOg55XJL
+    wxzWtrRnO+VwaNnjlcukGGI4TaY9ImySNYzUpmxHyKD119ElkeW6m5qEuKyfacvb
+    zyCa2NfhpwjQeOj2l57H
+    -----END CERTIFICATE-----
+  clusterName: d68
+  jx-install-version: 2.0.808
+  kubeProvider: gke
+  projectID: jx-mar19
+  region: ""
+  secretsLocation: vault
+  server: https://104.199.40.32
+  systemVaultName: jx-vault-d68
+  zone: europe-west1-d
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
